@@ -1,0 +1,51 @@
+@media screen and (max-width: 576px) {
+    .header{
+        height: auto;
+        width: auto;
+        background-image: none;
+    }
+    nav{
+    flex-direction: column;
+}
+.nav-l{
+    font-size: small;
+}
+.nav-r{
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.banner{
+    flex-direction: column;
+   
+}
+.banner-content{
+    
+}
+.download{
+    
+}
+.contact{
+    
+}
+.banner-img{
+    height: auto;
+}
+.info{
+    flex-direction: column;
+}
+.card{
+    flex-direction: column;
+}
+.summary{
+    display: block;
+}
+footer{
+    flex-direction: column;
+    padding: 0px;
+}
+.footer-r{
+    width: 80%;
+}
+}
